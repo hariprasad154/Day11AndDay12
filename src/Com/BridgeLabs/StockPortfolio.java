@@ -10,7 +10,7 @@ import java.util.Set;
 
 import Com.BridgeLabs.Stock;
 public class StockPortfolio {
-	static List<Stock> Stocklist=new ArrayList<>();
+	List<Stock> Stocklist=new ArrayList<>();
 
 	HashMap<String, Double> hashMap = new HashMap<String, Double>();
 
@@ -18,6 +18,14 @@ public class StockPortfolio {
 
 
 	static double ToatalValue=0;
+	
+//	static void demo() {
+//		
+//		
+//	}
+//	void demo2() {
+//		
+//	}
 
 	void stockDetails() {
 		Scanner scanner = new Scanner(System.in);
@@ -78,6 +86,7 @@ void showReport() {
 	
 	
 }
+
 
 
 

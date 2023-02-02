@@ -15,9 +15,7 @@ public class Stock {
 		this.sharePrice=sharePrice;
 		this.numberOfStock=numberOfStock;
 		this.total=total;
-		
-		
-		
+	
 	}
 	public Stock(double totalStock) {
 		
